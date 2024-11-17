@@ -6,7 +6,7 @@
  * Requires at least: 6.5
  * Requires PHP: 7.2
  * Requires Plugins: optimization-detective
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Weston Ruter
  * Author URI: https://weston.ruter.net/
  * License: GPLv2 or later
@@ -24,7 +24,8 @@ add_filter(
 	'od_url_metric_schema_root_additional_properties',
 	static function ( array $properties ): array {
 		$properties['userAgent'] = array(
-			'type' => 'string',
+			'type'      => 'string',
+			'maxLength' => 400, // Most commonly user agent strings are 100-200 chars.
 		);
 		return $properties;
 	}
