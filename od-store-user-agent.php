@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Optimization Detective Store User Agent
- * Plugin URI: https://gist.github.com/westonruter/???
+ * Plugin URI: https://gist.github.com/westonruter/fade0cc61d351d8013292f815fcbb70d
  * Description: Stores the User Agent with a URL Metric in the Optimization Detective plugin. This is useful for debugging URL Metrics, in particular what the slug was computed from.
  * Requires at least: 6.5
  * Requires PHP: 7.2
@@ -12,8 +12,8 @@
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * Text Domain: optimization-detective-store-user-agent
- * Update URI: https://gist.github.com/westonruter/???
- * Gist Plugin URI: https://gist.github.com/westonruter/???
+ * Update URI: https://gist.github.com/westonruter/fade0cc61d351d8013292f815fcbb70d
+ * Gist Plugin URI: https://gist.github.com/westonruter/fade0cc61d351d8013292f815fcbb70d
  *
  * @package OptimizationDetective\StoreUserAgent
  */
