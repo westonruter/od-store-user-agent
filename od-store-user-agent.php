@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Optimization Detective Store User Agent
  * Plugin URI: https://gist.github.com/westonruter/fade0cc61d351d8013292f815fcbb70d
- * Description: Stores the User Agent with a URL Metric in the Optimization Detective plugin. This is useful for debugging URL Metrics, in particular what the slug was computed from.
+ * Description: Stores the User Agent with a URL Metric in the Optimization Detective plugin. This is useful for debugging URL Metrics, in particular to understand what device has a given viewport dimensions.
  * Requires at least: 6.5
  * Requires PHP: 7.2
  * Requires Plugins: optimization-detective
