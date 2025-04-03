@@ -9,6 +9,6 @@
  * @type {InitializeCallback}
  * @param {InitializeArgs} args Args.
  */
-export async function finalize( { extendRootData } ) {
+export async function initialize( { extendRootData } ) {
 	extendRootData( { userAgent: navigator.userAgent } );
 }
